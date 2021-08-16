@@ -38,7 +38,7 @@ namespace DemoTestUnitTests
         public void WeatherForecast_List_SummaryCheck()
         {
             WeatherForecastController wc = new WeatherForecastController();
-            //Assert
+            //Assert equal
             string summary = "Mild";
             var ct = wc.Get(summary);
 
